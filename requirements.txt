@@ -1,0 +1,13 @@
+Modify the BuyingAgent class to meet the following requirements:
+- Implement the following use case:
+  Given a price tick for any product
+  When the price of the product is less than 5
+  Then buy 100 of that product
+- Use only the provided BankAPI interfaces (do not modify any of them). Implement them as needed or use them as a dependency
+- Use DI to pass any dependencies
+- Use TDD to drive the implementation and ensure appropriate unit tests coverage
+
+Prerequisites:
+- you have .net 4.7.2 or higher installed
+- you have a recent version of Visual Studio 2019 installed. You can download and install VS Community edition
+- you have a suitable nUnit test runner. This test project comes with the NUnit3TestAdapter package, for usage see https://docs.nunit.org/articles/vs-test-adapter/Usage.html
